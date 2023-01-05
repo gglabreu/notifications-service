@@ -3,30 +3,30 @@ import { Injectable } from '@nestjs/common';
 import { NotificationsRepository } from '../repositories/notifications-repository';
 
 interface CancelNotificationRequest {
-  notificationId: string
+  notificationId: string;
 }
 
-type CancelNotificationResponse = void
+type CancelNotificationResponse = void;
 
 @Injectable()
 export class CancelNotification {
-    constructor(
-        private notificationsRepository: NotificationsRepository
-    ) {
+  constructor(private notificationsRepository: NotificationsRepository) {}
 
-    }
-
-  async execute(request: CancelNotificationRequest): Promise<CancelNotificationResponse> {
+  async execute(
+    request: CancelNotificationRequest,
+  ): Promise<CancelNotificationResponse> {
     const { notificationId } = request;
 
-    const notification = await this.notificationsRepository.findById(notificationId)
+    const notification = await this.notificationsRepository.findById(
+      notificationId,
+    );
 
     if (!notification) {
-        throw new NotificationNotFound()
+      throw new NotificationNotFound();
     }
 
-    notification.cancel()
+    notification.cancel();
 
-    await this.notificationsRepository.save(notification)
+    await this.notificationsRepository.save(notification);
   }
 }
