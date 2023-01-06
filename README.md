@@ -56,4 +56,4 @@ $ npm run test:cov
 
 <p align="center" style="margin-top: 0.5rem;">Feito com ❤️ por Guilherme Abreu</p>
 
-<p align="center">Projeto desenvolvido durante o Ignite Lab - NodeJs da [Rocktseat](https://app.rocketseat.com.br/).</p>
+<p align="center">Projeto desenvolvido durante o Ignite Lab - NodeJs da <a href="https://www.rocketseat.com.br/">RocketSeat</a>.</p>
