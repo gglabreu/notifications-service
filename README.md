@@ -54,5 +54,6 @@ $ npm run test:cov
 
 ## Author
 
-<p style="margin-top: 0.5rem;">Feito com ❤️ por Guilherme Abreu</p>
+<p align="center" style="margin-top: 0.5rem;">Feito com ❤️ por Guilherme Abreu</p>
+
 Projeto desenvolvido durante o Ignite Lab - NodeJs da [Rocktseat](https://app.rocketseat.com.br/).
