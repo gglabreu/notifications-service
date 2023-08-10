@@ -17,6 +17,15 @@ Microsserviço de notificações desenvolvido com:
 - [Prisma](https://www.prisma.io/)
 - [Jest](https://jestjs.io/pt-BR/)
 
+## Images
+
+![image](https://github.com/gglabreu/notifications-service/assets/59566440/a66a261e-de13-46ed-b41d-fc341f0d08a6)
+
+![image](https://github.com/gglabreu/notifications-service/assets/59566440/9d127058-0b3a-4169-907f-262f053a0afe)
+
+![image](https://github.com/gglabreu/notifications-service/assets/59566440/e67ba9e2-bc92-4710-95a9-c231bab95833)
+
+
 ## Installation
 
 Clone o projeto
